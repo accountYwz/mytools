@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Toos\ArrayHelper;
+namespace Tools\ArrayHelper;
 
-use Toos\ArrayHelper\Base\Arrayable;
-use Toos\ArrayHelper\Base\InvalidArgumentException;
+use Tools\ArrayHelper\Base\Arrayable;
+use Tools\ArrayHelper\Base\InvalidArgumentException;
 
 /**
  * BaseArrayHelper provides concrete implementation for [[ArrayHelper]].

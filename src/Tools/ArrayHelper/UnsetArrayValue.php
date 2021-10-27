@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Toos\ArrayHelper;
+namespace Tools\ArrayHelper;
 
 /**
  * Object that represents the removal of array value while performing [[ArrayHelper::merge()]].

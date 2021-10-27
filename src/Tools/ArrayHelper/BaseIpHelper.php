@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Toos\ArrayHelper;
+namespace Tools\ArrayHelper;
 
-use Toos\ArrayHelper\Base\NotSupportedException;
+use Tools\ArrayHelper\Base\NotSupportedException;
 
 /**
  * Class BaseIpHelper provides concrete implementation for [[IpHelper]]

@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Toos\ArrayHelper\Base;
+namespace Tools\ArrayHelper\Base;
 
 /**
  * InvalidParamException represents an exception caused by invalid parameters passed to a method.

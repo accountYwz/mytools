@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Toos\ArrayHelper\Base;
+namespace Tools\ArrayHelper\Base;
 
 /**
  * InvalidConfigException represents an exception caused by incorrect object configuration.

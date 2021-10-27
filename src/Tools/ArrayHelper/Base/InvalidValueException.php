@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Toos\ArrayHelper\Base;
+namespace Tools\ArrayHelper\Base;
 
 /**
  * InvalidValueException represents an exception caused by a function returning a value of unexpected type.

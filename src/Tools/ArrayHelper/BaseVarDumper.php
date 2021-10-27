@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Toos\ArrayHelper;
+namespace Tools\ArrayHelper;
 
-use Toos\ArrayHelper\Base\Arrayable;
-use Toos\ArrayHelper\Base\InvalidValueException;
+use Tools\ArrayHelper\Base\Arrayable;
+use Tools\ArrayHelper\Base\InvalidValueException;
 
 /**
  * BaseVarDumper provides concrete implementation for [[VarDumper]].

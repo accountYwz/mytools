@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Toos\ArrayHelper;
+namespace Tools\ArrayHelper;
 
 use Toos\ArrayHelper\BaseVarDumper;
 /**

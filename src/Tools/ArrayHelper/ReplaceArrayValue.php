@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Toos\ArrayHelper;
+namespace Tools\ArrayHelper;
 
-use Toos\ArrayHelper\Base\InvalidConfigException;
+use Tools\ArrayHelper\Base\InvalidConfigException;
 
 /**
  * Object that represents the replacement of array value while performing [[ArrayHelper::merge()]].
