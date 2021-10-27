@@ -38,6 +38,19 @@ class BaseArrayHelper
             } else if(is_numeric($value)&&!is_string($value)){
                 $arr[$key] =(string)$value;
             }
+            if(is_null($value)){
+                $arr[$key] = '';
+            }
+            //key 单词下划线转换为小驼峰
+            if (is_string($key)) {
+                $newKey = preg_replace_callback('/_([a-zA-Z])/', function ($match) {
+                    return strtoupper($match[1]);
+                }, $key);
+                if($newKey!=$key){
+                    $arr[$newKey] = $arr[$key];
+                    unset($arr[$key]);
+                }
+            }
         }
         return $arr;
     }
